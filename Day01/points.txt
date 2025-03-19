@@ -1,0 +1,123 @@
+•	Decorators 
+•	Python's object model
+•	Marshalling and Data Persistence
+•	Multithreaded programming
+•	Multiprocessing using Python
+•	Odds and Ends
+•	Connecting to databases
+•	Creating minimalistic web applications (FLASK)
+•	Authentication and Authorization
+•	Creating RESTful API interface (FLASK)
+•	Network programming
+
+pending - Annotations
+
+Decorators
+----------
+Decorator are a powerful and flexible way to modify or extend the behaviour of functions or methods without changing the actual code.
+
+
+Functions
+---------
+a. closure
+b. HOF
+c. decorators
+
+Mera Bharath mahan
+
+
+write a decorator to calculate the time taken by the function to execute
+
+lst = []
+
+def fun(n):
+   for i in range(n):
+       for j in range(1, i+1):
+	   lst.append(j ** 3)
+
+
+OOPs using  Python
+------------------
+What is OOPs and Why do we need to implement OOPS?
+
+class deposit()
+
+   def cheque():
+      pass
+   
+   def dd():
+      pass
+
+
+
+
+class transfer(deposit):
+	
+    def UPI():
+       pass
+
+    def OnlineTrans():
+       pass
+
+    
+1. Inheritance
+
+2. Encapsulation
+
+3. polymorphism
+
+4. abstraction
+
+
+class - blue print of the business
+
+object - object is a data structure that encapsulates data and behaviour
+
+attributes - data members of a class (instance variables). Employee class - name, age, empid 
+
+methods - functions defined inside a class is called a method. Employee Class - doJob(), take_a_break(type) ,logoff()
+
+
+class attribute or class variable
+---------------------------------
+class attributes are declared inside the class but outside the functions
+
+class attributes are static and their values are the same across objects
+
+class attributes are accessed using the class name
+
+
+
+create a code with two classmethods
+
+1. sets the teamleader name
+2. gets the teamleaders name
+
+
+class Team:
+    def __init__(self):
+        self.team_leader = None
+ 
+    def set_team_leader(self, name):
+        self.team_leader = name
+ 
+    def get_team_leader(self):
+        return self.team_leader
+ 
+t1=Team()
+t1.set_team_leader("ABB")
+print(t1.get_team_leader())
+ 
+
+static method
+-------------
+
+Overload all your arithmetic operators
+
+add, sub, mul, div, floor_div
+
+
+
+
+
+
