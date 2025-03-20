@@ -28,12 +28,11 @@ try:
     print(pepsi.get_price())
 
     print("-" * 60)
-    pepsi.set_price(60)
+    pepsi.set_price(-60)
     print(pepsi.get_price())
-
-
 
 except:
     print("Exception caught.....")
-    print(sys.exc_info()[0])
-    print(sys.exc_info()[1])
+    print(sys.exc_info()[0])        # class name - ValueError
+    print(sys.exc_info()[1])        # message
+    # print(sys.exc_info())
