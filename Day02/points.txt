@@ -1,0 +1,60 @@
+Abstract Class
+--------------
+
+properties
+----------
+
+1. Abstract classes cannot be instantiated
+
+2. Abstract classes will have abstract methods
+
+
+Duck Typing
+-----------
+any bird that walks like a duck and quacks like a duck - then we call it as a duck
+
+
+Annotations
+-----------
+Annotation feature of python enables you to add additional explanatory metadata about the arguments declared in a function definition and also the return data type
+
+Annotations are considered by python interpreter while executing the code.
+
+They are mainly used for python IDE's for providing detailed documentation to the programmer
+
+To check the annotations there is a static type checker
+
+mypy (library and should be installed)
+
+
+Marshalling and Data Persistence
+--------------------------------
+
+Marshalling
+-----------
+Marshalling refers to the process of transforming in-memory objects into a byte stream that can be stored or transmitted and then reconstructing the object from the byte stream later.
+
+Its a form of serialization is primarily used for internal python object persistence or transfer especially in contexts like inter-process communication or caching.
+
+we have a marshal module for this purpose
+
+import marshal
+
+
+FLASK
+-----
+flask is a micro web framework for Python, designed to be lightweight and flexible for building web applications. It provides essential tool and features such as routing and request handling without enforcing a specific structure or requiring extensive boiler plate code. Flask's minimalistic design allows developers to have more control over the application's components making it suitable for both small and complex projects it is based on the Werkzeug WSGI (web server gateway interface) toolkit and Jinja2 templating engine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
