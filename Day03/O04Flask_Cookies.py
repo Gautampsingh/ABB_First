@@ -1,5 +1,6 @@
 
 from flask import Flask, render_template, make_response,request
+import time
 
 app = Flask(__name__)
 
@@ -10,8 +11,9 @@ def home():
 @app.route("/set_cookie")
 def set_cookie():
     resp = make_response("Success")
-    resp.set_cookie("Prod1", "Pepsi")
-    resp.set_cookie("Prod2", "Tropicana")
+    targetTime = time.time() + 60       # 60 secs
+    resp.set_cookie("Prod1", "Pepsi", expires=targetTime)
+    resp.set_cookie("Prod2", "Tropicana", expires=targetTime)
     return resp
 
 @app.route("/get_cookie")
