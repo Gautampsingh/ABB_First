@@ -1,0 +1,66 @@
+Cookies are a small text file that a website stores on your computer or device to remember information about the user such as the preference of login details for later use.
+
+How they Work....
+When you visit the website it can send a cookie to your browser. The browser stores the cookie and when you visit the website again the browser send the cookie back to the website. 
+
+Cookie can store
+----------------
+user preferences - Language settings, theme preferences
+
+Logging information -  username, password, allowing you to stay logged in
+
+Shopping cart contents - items that we have added into the cart
+
+Track information - For analytics and Personalization
+
+Types of cookies
+----------------
+Session Cookie - Temporary cookie that are deleted when we close the browser
+
+Persistent Cookie - Cookies that are stored on your device for a set of period or time or until we delete them
+
+import datetime 
+
+expires = datetime.datetime.now() + datetime.timedelta(days=1)
+
+SQLAlchemy
+----------
+its a python library that servers as a powerful SQL toolkit and ORM Object Relational Mapper allowing python developers to interact with SQL databases using python objects and pythonic syntax simplifying database operations
+
+API
+---
+Application programming Interface
+
+its a software that acts as intermediary between two applications to communicate with each other.
+
+REST API
+--------
+Representational State Transfer Application Programming Interface
+
+JSON Data 
+---------
+to communicate between two web applications
+
+REST API's uses HTTP protocol to define how applications interact making them widely compatible
+
+Stateless Operation
+-------------------
+Each request contains all the information needed and the server doesn't maintain any state between requests
+
+
+get - uses to request data from a specified resource
+
+put - uses to update a resource or create a new resource if does not exist at a specified URL
+
+post - is used to submit data to be processed to a specific resource 
+
+patch - used to apply partial modification to a resource
+
+delete - used for removal of a resource at a specified URL
+
+
+colkiran@gmail.com
+
+
+
+
